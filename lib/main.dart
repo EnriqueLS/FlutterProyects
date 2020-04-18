@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Pruebas en github con VS Code"),
+          title: Text("Pruebas en github con VS Code V2"),
           centerTitle: true,
         ),
         body: Center(
