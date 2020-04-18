@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-PruebaModel pruebaModelFromJson(String str) => PruebaModel.fromJson(json.decode(str));
+PruebaModel pruebaModelFromJson(String cadena) => PruebaModel.fromJson(json.decode(cadena));
 
 String pruebaModelToJson(PruebaModel data) => json.encode(data.toJson());
 
